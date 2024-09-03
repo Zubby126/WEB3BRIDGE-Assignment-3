@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+:root{
+    /* primary color */
+    --bg-color: #ddebf8;
+    --text-color: #2a2939;
+    --ptext-color: #4e5463;
+    --border-color: #d7cefd;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    /* margin: auto;
+    width: 50%; */
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.container{
+    height: 25rem;
+    width: 47rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    border-bottom: var(--border-color) solid 15px;
+    background-color: var(--bg-color);
+}
+
+.text-area{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--text-color);
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: var(--ptext-color),
+}
+
